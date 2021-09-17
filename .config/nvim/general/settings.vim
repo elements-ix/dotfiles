@@ -1,3 +1,5 @@
+map <Space> <Leader>
+
 " Code action on <leader>a
 vmap <leader>a <Plug>(coc-codeaction-selected)<CR>
 nmap <leader>a <Plug>(coc-codeaction-selected)<CR>
@@ -27,3 +29,4 @@ syntax on
 colorscheme nord
 set mouse=a
 set number relativenumber
+set clipboard=unnamed
