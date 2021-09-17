@@ -30,3 +30,6 @@ colorscheme nord
 set mouse=a
 set number relativenumber
 set clipboard=unnamed
+
+" Python format on save with Black
+autocmd BufWritePre *.py execute ':Black'
