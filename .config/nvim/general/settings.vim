@@ -30,3 +30,9 @@ colorscheme nord
 set mouse=a
 set number relativenumber
 set clipboard=unnamed
+
+" Python format on save with Black
+autocmd BufWritePre *.py execute ':Black'
+
+" Automatically format .md files to 80 chars
+au BufRead,BufNewFile *.md setlocal textwidth=80

@@ -23,6 +23,9 @@ Plug 'tpope/vim-fugitive'
 " Auto-close braces and scopes
 Plug 'jiangmiao/auto-pairs'
 
+" Black
+Plug 'psf/black', {'branch': 'stable'}
+
 " Autocomplete
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

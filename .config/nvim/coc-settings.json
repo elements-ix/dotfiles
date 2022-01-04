@@ -2,6 +2,4 @@
   "coc.preferences.formatOnSaveFiletypes": ["py", "yaml", "json", "rs"],
   "python.linting.flake8Enabled": true,
   "python.formatting.provider": "black",
-  "rust-analyzer.cargo-watch.enable": false,
-  "rust-analyzer.serverPath": "/home/jon/.cargo-target/release/rust-analyzer"
 }
